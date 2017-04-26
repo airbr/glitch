@@ -1,21 +1,26 @@
 {
-  "name": "html5-boilerplate",
-  "version": "0.0.1",
-  "description": "Front-end template",
-  "main": "server.js",
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Messenger Platform QuickStart Demo",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.14.0"
-  },
-  "engines": {
-    "node": "6.9.1"
+    "start": "node bot.js"
   },
   "repository": {
-    "url": "https://html5boilerplate.com"
+    "type": "git",
+    "url": "git+https://github.com/vernon99/messenger-quick-start.git"
   },
   "keywords": [
-    "node"
-  ]
+    "messenger",
+    "bot",
+    "quickstart"
+  ],
+  "author": "Mikhail Larionov <mlarionov@fb.com>",
+  "license": "MIT",
+  "homepage": "https://developers.facebook.com/docs/messenger-platform/guides/quick-start",
+  "dependencies": {
+    "request": "^2.72.0",
+    "express": "*",
+    "body-parser": "*"
+  }
 }
